@@ -171,16 +171,16 @@
 %link {
 	@include themify() {
 		text-decoration: none;
-		color: getThemifyVariable('inactive-text-color');
+		color: getThemifyVariable('secondary-text-color') !important;
 		cursor: pointer;
 		& g, & path {
-			fill: getThemifyVariable('inactive-text-color');
+			fill: getThemifyVariable('secondary-text-color') !important;
 		}
 		&:hover {
 			text-decoration: none;
-			color: getThemifyVariable('heavy-text-color');
+			color: getThemifyVariable('heavy-text-color') !important;
 			& g, & path {
-				fill: getThemifyVariable('heavy-text-color');
+				fill: getThemifyVariable('heavy-text-color') !important;
 			}
 		}
 	}
